@@ -1,0 +1,72 @@
+{
+    "menu" : {
+        "Apetizers": [
+            {"name":"Cheburek", "price":5.99, "description": "seasoned pastry"},
+            {"name":"Hummus", "price":4.99},
+            {"name":"Eggrolls", "price":4.99},
+            {"name":"Somsa", "price":3.5}
+        ], 
+        "Soups": [
+            {"name": "Borsht", "price":4.99},
+            {"name": "Lagman", "price": 9.99}
+        ], 
+        "Entrees": [
+            {"name": "Palov", "options": [
+                {"opt": "Lamb", "price":12.99},
+                {"opt": "Beef", "price":11.99},
+                {"opt": "Chicken", "price":11.99},
+                {"opt": "Vegetarian", "price":9.99}
+            ]},
+            {"name":"Manti", "options": [
+                {"opt": "Beef & Lamb (5)", "price":12.99},
+                {"opt": "Vegetarian (6)", "price":12.99}
+            ]},
+            {"name":"Fried Lagman", "options":[
+                {"opt": "Lamb", "price":14.99},
+                {"opt": "Beef", "price":12.99},
+                {"opt": "Chicken", "price":11.99}
+            ]},
+            {"name":"Kebab Wrap", "options":[
+                {"opt": "Lamb", "price":14.99},
+                {"opt": "Beef", "price":11.99},
+                {"opt": "Chicken", "price":10.99}
+            ]},
+            {"name":"Kebab Plate", "options":[
+                {"opt": "Beef", "price":12.99},
+                {"opt": "Chicken", "price":11.99}
+            ]},
+            {"name":"Crepes", "options":[
+                {"opt": "Beef", "price":14.99},
+                {"opt": "Vegetarian", "price":12.99}
+            ]},
+            {"name": "Uzbek Creamy Pasta", "options":[
+                {"opt": "Beef", "price":13.99},
+                {"opt":"Chicken", "price":12.99},
+                {"opt":"Shrimp", "price":15.99}
+            ]}
+        ],
+        "Drinks": [
+            {"name":"Orange / Apple Juice", "price":2.99 },
+            {"name":"Soft Drinks", "price":1.99},
+            {"name":"Lemonade", "price":2.99},
+            {"name":"Iced Tea", "price":2.5},
+            {"name":"Hot Teapot", "price":4.59},
+            {"name":"Bottled Water", "price":1.5}
+        ],
+        "Desserts": [
+            {"name":"Honey Cake", "price":4.99},
+            {"name":"Baklava", "price":4.99},
+            {"name":"Cheese cake", "price":4.99},
+            {"name":"Ice Cream", "price":4.99}
+        ],
+        "Sides & Salads": [
+            {"name":"Uzbek Bread", "price":4.99},
+            {"name":"Pita Bread", "price":2.5},
+            {"name":"Steamed Rice", "price":1.99},
+            {"name":"French Fries", "price":2.9},
+            {"name":"Achik-Chuchuk Salad", "price":4.99},
+            {"name":"Green Salad", "price":4.99}
+        ]
+        
+    }
+}
