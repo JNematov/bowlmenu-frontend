@@ -1,7 +1,4 @@
-const HoursLocation = () => {
-
-
-    return (
+const HoursLocation = () =>  (
         <div className="hours-location">
             <h1>Hours & Location</h1>
             <div className="content">
@@ -14,9 +11,9 @@ const HoursLocation = () => {
                 <p>Austin, TX 78759</p>
                 <p className="phone-number">512-992-0128</p>
             </div>
-            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=bowlmenu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe title="hours" id="gmap_canvas" src="https://maps.google.com/maps?q=bowlmenu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
     );
-}
+
 
 export default HoursLocation;

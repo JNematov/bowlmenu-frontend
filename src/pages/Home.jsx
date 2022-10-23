@@ -1,14 +1,11 @@
 import Slideshow from "../components/Slideshow";
 import {Link}from 'react-router-dom'
+import palov from '../images/palov_3.webp';
+import { HEROKU_URL } from "../helper/constants";
 
-const Home = () => {
-
-    const slidesUrl = 'http://localhost:8000/events'
-
-
-    return ( 
+const Home = () =>  ( 
         <div className="home-page">
-            <Slideshow slidesUrl={slidesUrl}/>
+            <Slideshow slidesUrl={`${HEROKU_URL}/events`}/>
             <div className="visit-us">
                 <div className="content">
                     <h2>Visit Us</h2>
@@ -18,7 +15,7 @@ const Home = () => {
                     <p className="adress">8650 Spicewood Springs Rd ste 119, Austin, TX 78759</p>
                     <p className="phone-number">512-992-0128</p>
                 </div>
-                <img src={require(`../images/palov_3.webp`)} className="fixed-image" />
+                <img src={palov} alt="palov" className="fixed-image" />
             </div>
             <section className="pic">
                 <div className="menu-title">
@@ -49,6 +46,5 @@ const Home = () => {
                 </div>
         </div>
      );
-}
  
 export default Home;
